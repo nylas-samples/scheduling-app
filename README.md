@@ -29,6 +29,15 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+
+## Code
+The starting point for the frontend can be found [here](https://github.com/nylas-samples/scheduling-app/blob/main/pages/index.tsx)
+
+We store the scheduler information on supabase with a table, `service` that includes the following details:
+- `user_id: int8` defaulted to 1 for demo
+- `service: string`
+- `nylas_scheduler_url:string`
+
 ## Learn more
 
 Visit our [Nylas documentation](https://developer.nylas.com/) to learn more.
